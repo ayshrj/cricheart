@@ -1,0 +1,38 @@
+
+  #upperPart {
+    display: flex;
+  }
+  
+  #battingTitle{
+    background-color: #F2F2F2;
+  }
+  
+  #profileImage{
+    padding-left: 1%;
+  }
+  
+  #playerName{
+    padding-left: 1%;
+  }
+  
+  .playerPersonalData {
+    padding-left: 1%;
+  }
+  
+  .chat-btn{
+    position: fixed;
+    right:50px;
+    bottom: 50px;
+    background: dodgerblue;
+    color: white;
+    width:60px;
+    height: 60px;
+    border-radius: 50%;
+    opacity: 0.8;
+    transition: opacity 0.3s;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.4);
+    }
+  
+  .chat-btn:hover, .submit:hover{
+      opacity: 1;
+  }

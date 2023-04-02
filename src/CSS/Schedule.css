@@ -1,0 +1,199 @@
+*{
+    font-family: helvetica,Segoe UI,Arial,sans-serif;
+  }
+   
+   
+  #containerscheduleTopics{
+    width: 80%;
+    margin: auto;
+    background-color: white;
+  }
+  
+  #containerschedule{
+    width: 80%;
+    margin: auto;
+    background-color: white;
+  }
+  
+  
+  #line1{
+    margin-left: 15px;
+    padding-top: 15px
+  }
+  
+  #cstopicid{
+   display: grid;
+   grid-template-columns: repeat(5,180px);
+   padding: 5px 15px;
+   
+  }
+  
+  
+  .cstopic{
+    background-color: #CFE0DB;
+    color: black;
+    border-radius: 20px;
+    border: 0;
+    padding: 5px;   
+    cursor: pointer; 
+    text-align: center; 
+    font-size: 14px;
+    width: 150px
+  }
+  
+  
+  .cstopic:hover{
+    background-color: #009270 ;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .dates{
+    background-color: #e3e6e3;
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-weight: bold;
+    height: 30px;
+    width: 100%;
+    padding-left: 15px; ;
+    padding-top: 10px;
+  }
+  
+  .tours{
+    display: grid;
+    grid-template-columns:repeat(3,33%);
+    grid-template-rows: 1;
+    margin-right: 45px;
+    margin-bottom: 50px;
+    padding-left: 15px;
+  }
+  
+  .allp{
+    color: #666;
+    font-size: 12px;
+  }
+  
+  .tourhead{
+    font-weight: bold;
+  }
+  
+  .time{
+    margin-left: 60px;
+  }
+  
+  @import url("//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+  
+  .navbar-icon-top .navbar-nav .nav-link > .fa {
+  position: relative;
+  width: 36px;
+  font-size: 24px;
+  }
+  
+  .navbar-icon-top .navbar-nav .nav-link > .fa > .badge {
+  font-size: 0.75rem;
+  position: absolute;
+  right: 0;
+  font-family: sans-serif;
+  }
+  
+  .navbar-icon-top .navbar-nav .nav-link > .fa {
+  top: 3px;
+  line-height: 12px;
+  }
+  
+  .navbar-icon-top .navbar-nav .nav-link > .fa > .badge {
+  top: -10px;
+  }
+  
+  @media (min-width: 576px) {
+  .navbar-icon-top.navbar-expand-sm .navbar-nav .nav-link {
+    text-align: center;
+    display: table-cell;
+    height: 70px;
+    vertical-align: middle;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  
+  .navbar-icon-top.navbar-expand-sm .navbar-nav .nav-link > .fa {
+    display: block;
+    width: 48px;
+    margin: 2px auto 4px auto;
+    top: 0;
+    line-height: 24px;
+  }
+  
+  .navbar-icon-top.navbar-expand-sm .navbar-nav .nav-link > .fa > .badge {
+    top: -7px;
+  }
+  }
+  
+  @media (min-width: 768px) {
+  .navbar-icon-top.navbar-expand-md .navbar-nav .nav-link {
+    text-align: center;
+    display: table-cell;
+    height: 70px;
+    vertical-align: middle;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  
+  .navbar-icon-top.navbar-expand-md .navbar-nav .nav-link > .fa {
+    display: block;
+    width: 48px;
+    margin: 2px auto 4px auto;
+    top: 0;
+    line-height: 24px;
+  }
+  
+  .navbar-icon-top.navbar-expand-md .navbar-nav .nav-link > .fa > .badge {
+    top: -7px;
+  }
+  }
+  
+  @media (min-width: 992px) {
+  .navbar-icon-top.navbar-expand-lg .navbar-nav .nav-link {
+    text-align: center;
+    display: table-cell;
+    height: 70px;
+    vertical-align: middle;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  
+  .navbar-icon-top.navbar-expand-lg .navbar-nav .nav-link > .fa {
+    display: block;
+    width: 48px;
+    margin: 2px auto 4px auto;
+    top: 0;
+    line-height: 24px;
+  }
+  
+  .navbar-icon-top.navbar-expand-lg .navbar-nav .nav-link > .fa > .badge {
+    top: -7px;
+  }
+  }
+  
+  @media (min-width: 1200px) {
+  .navbar-icon-top.navbar-expand-xl .navbar-nav .nav-link {
+    text-align: center;
+    display: table-cell;
+    height: 70px;
+    vertical-align: middle;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  
+  .navbar-icon-top.navbar-expand-xl .navbar-nav .nav-link > .fa {
+    display: block;
+    width: 48px;
+    margin: 2px auto 4px auto;
+    top: 0;
+    line-height: 24px;
+  }
+  
+  .navbar-icon-top.navbar-expand-xl .navbar-nav .nav-link > .fa > .badge {
+    top: -7px;
+  }
+  }
