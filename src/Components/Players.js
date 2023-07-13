@@ -1,4 +1,4 @@
-import React, { Component, useState } from "react";
+import React, { Component } from "react";
 import axios from "axios";
 import "../CSS/Players.css";
 import API_KEY from "./APIKEY.mjs";
@@ -25,7 +25,6 @@ export default class Players extends Component {
 
   handleButtonClicked() {
     let searchQuery = this.state.searchQuery.replaceAll(" ", "%20");
-    var id;
 
     axios
       .get(
@@ -73,12 +72,12 @@ export default class Players extends Component {
                 "Nov",
                 "Dec",
               ];
-              const day = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+              // const day = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 
               // var output = `<div id="playerName">`; //not using
 
               var playerImg =
-                data.playerImg == "https://h.cricapi.com/img/icon512.png"
+                data.playerImg === "https://h.cricapi.com/img/icon512.png"
                   ? ""
                   : data.playerImg;
 

@@ -2,10 +2,10 @@ import logo from "../logo.png";
 import React, { Component } from "react";
 import {
   Navbar,
-  NavDropdown,
-  Form,
-  FormControl,
-  Button,
+  //   NavDropdown,
+  //   Form,
+  //   FormControl,
+  //   Button,
   Nav,
 } from "react-bootstrap";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
@@ -27,7 +27,7 @@ export default class NavbarComp extends Component {
           <div>
             <Navbar bg="dark" variant={"dark"} expand="lg">
               <Navbar.Brand class="navbar fixed-top navbar-icon-top navbar-expand-lg navbar-dark bg-dark">
-                <img src={logo} width="50" height="50" />{" "}
+                <img src={logo} alt="logo" width="50" height="50" />{" "}
               </Navbar.Brand>
               <Navbar.Toggle aria-controls="navbarScroll" />
               <Navbar.Collapse id="navbarScroll">
