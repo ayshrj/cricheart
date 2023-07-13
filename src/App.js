@@ -1,11 +1,10 @@
-import './App.css';
-import { useState, useEffect } from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "./App.css";
+import { useState, useEffect } from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
 import API_KEY from "./Components/APIKEY.mjs";
-import NavbarComp from './Components/NavbarComp';
+import NavbarComp from "./Components/NavbarComp";
 
 function App() {
-
   let url =
     "https://api.cricapi.com/v1/currentMatches?apikey=" +
     API_KEY +
@@ -30,12 +29,9 @@ function App() {
     fetchData();
   }, []);
 
-
   return (
     <div className="App">
-      
-      <NavbarComp/>
-
+      <NavbarComp />
     </div>
   );
 }

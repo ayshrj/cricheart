@@ -3,8 +3,8 @@
 
 // const API_KEY = '0b4b0a20-3a07-4b1d-94c0-2e5c7cc274f2';
 // const API_KEY = '7410ce8b-0328-4303-8101-738a5ff652da';
-const API_KEY = '58738d6b-1eb9-42e1-845b-78e59aeaf157';
-// const API_KEY = '6bea69d6-2b50-4f12-919a-c5a3a0a56afb';
+// const API_KEY = '58738d6b-1eb9-42e1-845b-78e59aeaf157';
+const API_KEY = "6bea69d6-2b50-4f12-919a-c5a3a0a56afb";
 // const API_KEY = '8006972c-737d-473e-bd65-d6c2ce3a5ef7';
 // const API_KEY = 'ee6fbca9-9ba6-46c8-85db-80a20b23313d';
 // const API_KEY = '28767f45-f133-447e-9873-69d24bfb94ee';
@@ -20,4 +20,4 @@ const API_KEY = '58738d6b-1eb9-42e1-845b-78e59aeaf157';
 // const API_KEY = '79e609cc-5129-4efa-974b-50b7b514cdd6';
 // const API_KEY = '8072aa49-c0fc-4b7d-acdb-39150f685e63';
 
-export default API_KEY
+export default API_KEY;

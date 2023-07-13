@@ -37,7 +37,7 @@ export default class NavbarComp extends Component {
                   navbarScroll
                 >
                   {/* <Nav.Link as={Link} to="/home"> */}
-                  <Nav.Link as={Link} to="/">
+                  {/* <Nav.Link as={Link} to="/">
                     <div class="navbar-icon-top">
                       <i class="fa fa-home"></i>
                     </div>
@@ -51,7 +51,23 @@ export default class NavbarComp extends Component {
                     </div>
                     Schedule
                     <span class="sr-only">(current)</span>
+                  </Nav.Link> */}
+
+                  <Nav.Link as={Link} to="/schedule">
+                    <div class="navbar-icon-top">
+                      <i class="fa fa-calendar"></i>
+                    </div>
+                    Schedule
+                    <span class="sr-only">(current)</span>
                   </Nav.Link>
+
+                  {/* <Nav.Link as={Link} to="/schedule">
+                    <div class="navbar-icon-top">
+                      <i class="fa fa-calendar"></i>
+                    </div>
+                    Schedule
+                    <span class="sr-only">(current)</span>
+                  </Nav.Link> */}
 
                   <Nav.Link as={Link} to="/archives">
                     <div class="navbar-icon-top">
