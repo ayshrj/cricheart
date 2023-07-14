@@ -1,1 +1,1 @@
-Live Project: [Cricheart](https://cricheart-123.vercel.app/)
+Project made using react.js by Ayush Raj
